@@ -1,0 +1,17 @@
+name: Project Repository Linking
+
+on:
+  issues:
+    types: [opened, edited, deleted, transferred, closed, reopened]
+  pull_request:
+    types: [opened, edited, closed, reopened]
+
+jobs:
+  project_linking:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add to project
+        uses: actions/add-to-project@v0.5.0
+        with:
+          project-url: https://github.com/users/sakimotto/projects/1
+          github-token: ${{ secrets.PROJECT_TOKEN }}

@@ -1,0 +1,32 @@
+{
+  "name": "zervi-website",
+  "version": "1.0.0",
+  "description": "Official website for Zervi Asia Co. Ltd.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve -l 3000 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/www-zervi-com/zervi-website.git"
+  },
+  "keywords": [
+    "zervi",
+    "automotive",
+    "interior",
+    "neoprene",
+    "seat-covers",
+    "thailand"
+  ],
+  "author": "Zervi Asia Co. Ltd.",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/www-zervi-com/zervi-website/issues"
+  },
+  "homepage": "https://github.com/www-zervi-com/zervi-website#readme",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

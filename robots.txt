@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas if they exist in the future
+# Disallow: /admin/
+# Disallow: /private/
+
+Sitemap: https://www.zervi.com/sitemap.xml

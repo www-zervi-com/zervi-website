@@ -1,0 +1,16 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/sakimotto/dev-docs/tree/main/docs
+    about: Check our documentation for guides and help
+
+# Template categories
+template_categories:
+  - name: Infrastructure
+    templates:
+      - database-setup
+      - ai-ml-setup
+      - integration-setup
+  - name: Project Management
+    templates:
+      - repository-assessment

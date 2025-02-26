@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zervi specializes in automotive interior products, with a particular focus on functional interior protection.">
+    <meta name="theme-color" content="#005f87">
+    <title>Zervi - Innovative Automotive Interior Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/zervi-logo.png" alt="Zervi Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/products.html">Products</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Zervi an innovative group of companies</h1>
+                <p>that specializes in automotive interior products, with a particular focus on functional interior protection.</p>
+                <a href="pages/contact.html" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>WE COVER ALL TYPE OF SERVICES</h2>
+            <p>Zervi stands as a premier manufacturer of neoprene interior protection products. We are proud to note that approximately 90% of all OEM neoprene seat covers sold in Australia bear our signature. Annually, Zervi supply over 50,000 seat covers to a diverse range of clients, including industry leaders. In step with new car launches, we've developed more than 100 PPAP OEM parts, all designed and tested according to the most rigorous OEM standards and global testing methods.</p>
+            <a href="pages/about.html" class="btn">Business Group</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>CATEGORY</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="images/camping-outdoor.jpg" alt="Camping and Outdoor">
+                    <h3>CAMPING AND OUTDOOR</h3>
+                    <a href="pages/camping-outdoor.html" class="btn">Learn More</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/apparel.jpg" alt="Apparel">
+                    <h3>APPAREL</h3>
+                    <a href="pages/apparel.html" class="btn">Learn More</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/design-studio.jpg" alt="Design Studio">
+                    <h3>DESIGN STUDIO</h3>
+                    <a href="pages/design-studio.html" class="btn">Learn More</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/productions-services.jpg" alt="Productions and Services">
+                    <h3>PRODUCTIONS AND SERVICES</h3>
+                    <a href="pages/productions-services.html" class="btn">Learn More</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/technologies.jpg" alt="Technologies">
+                    <h3>TECHNOLOGIES</h3>
+                    <a href="pages/technologies.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>WE'RE HERE TO HELP!</h2>
+            <p>Reach out to us with any questions, comments, or inquiries. Our team is ready to assist you.</p>
+            <a href="pages/contact.html" class="btn">GET IN TOUCH</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/zervi-logo.png" alt="Zervi Logo">
+                </div>
+                <div class="footer-contact">
+                    <p>Email: <a href="mailto:info@zervi.com">info@zervi.com</a></p>
+                    <p>Tel: <a href="tel:+66024152174">+66 (0) 24152174</a></p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Zervi Asia Co. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Register Service Worker for PWA support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.error('Service Worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
