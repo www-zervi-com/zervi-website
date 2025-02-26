@@ -1,39 +1,58 @@
 # Zervi Website Project
 
-This repository contains the source code for the Zervi company website.
+This repository contains planning documents and assets for the Zervi company website, which will be implemented using WordPress.
 
 ## About Zervi
 
 Zervi is an innovative group of companies specializing in automotive interior products, with a particular focus on functional interior protection. They are a premier manufacturer of neoprene interior protection products, with approximately 90% of OEM neoprene seat covers sold in Australia bearing their signature.
 
-## Project Structure
+## Project Plan
 
-- `index.html` - Main homepage
-- `css/` - Stylesheet files
-- `js/` - JavaScript files
-- `images/` - Image assets
-- `pages/` - Additional HTML pages
+The Zervi website will be implemented using WordPress with the following features:
 
-## Categories
+- Modern, responsive design
+- Optimized for search engines (SEO)
+- Fast loading performance
+- Mobile-friendly interface
+- Easy content management
+- Secure implementation
 
-The website showcases the following product/service categories:
-1. Camping and Outdoor
-2. Apparel
-3. Design Studio
-4. Productions and Services
-5. Technologies
+## Website Structure
 
-## Development
+The website will showcase the following sections:
+1. Home - Overview of Zervi with key highlights
+2. About - Company history and values
+3. Products/Categories
+   - Automotive
+   - Camping and Outdoor
+   - Apparel
+   - Design Studio
+   - Productions and Services
+   - Technologies
+4. Gallery - Showcase of products and work
+5. Contact - Contact information and form
 
-### Prerequisites
-- Basic knowledge of HTML, CSS, and JavaScript
-- A code editor (VS Code, Sublime Text, etc.)
-- Git for version control
+## Implementation Plan
 
-### Setup
-1. Clone this repository
-2. Open the project in your code editor
-3. Start a local server to view the website
+1. **Platform**: WordPress with premium theme
+2. **Hosting**: CrazyDomains WordPress hosting
+3. **Essential Plugins**:
+   - Yoast SEO
+   - WPForms
+   - Smush
+   - UpdraftPlus
+   - Wordfence
+   - WP Rocket
+
+## Timeline
+
+- Week 1: Setup, theme installation, structure planning
+- Week 2: Content creation and migration
+- Week 3: Testing, optimization, and launch
+
+## Assets
+
+The `images` directory will contain all visual assets for reference and implementation.
 
 ## Contact
 

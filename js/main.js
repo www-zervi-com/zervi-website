@@ -1,3 +1,15 @@
+/*
+NOTE: This JavaScript implementation is being replaced with a WordPress-based website.
+Please refer to the following documents for the new implementation plan:
+- README.md - Project overview
+- PROJECT-PLAN.md - Detailed project plan
+- WORDPRESS-SETUP.md - WordPress setup instructions
+- CONTENT-MIGRATION.md - Content migration strategy
+- THEME-COMPARISON.md - WordPress theme comparison
+
+This file is kept for reference purposes only.
+*/
+
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
